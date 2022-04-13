@@ -1,0 +1,234 @@
+.container{
+    justify-content: space-between;
+    background-color: aliceblue;
+    border: 1px black solid;
+
+}
+
+.map{
+    display: inline-block;
+    height: 360px;
+    width: 360px;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.details{
+    display: inline-block;
+    height: 360px;
+    width: 360px;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: rgb(226, 43, 134);
+    padding: 10px;
+    margin: 20px;
+    float: right;
+}
+
+.mapslum{
+    display: flex;
+    justify-content: center;
+    border: 1px black solid;
+}
+
+.hide{
+    /* background-color: rgba(0,0,0,0.6); */
+    /* border-radius: 5px; */
+    /* text-align: center; */
+    transform: scale(0);
+    /* padding: 10px 20px; */
+    /* border: 1px solid #644666; */
+    /* font-size: 12px; */
+  }
+.modal {
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%) scale(1);
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 10;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+  }
+  
+
+  
+  .modal-header{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+  .modal-header .title{
+    font-size: 1.25 rem;
+    font-weight: bold;
+  }
+  
+  .modal-header .close-button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25 rem;
+    font-weight: bold;
+  }
+  
+  .modal-body{
+    padding: 10px 15px;
+  }
+  
+  #progress{
+    background-color: rgb(255, 104, 104);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#progress:hover{
+    background-color: rgb(255, 52, 86);
+    color: white;
+
+}
+
+.container{
+    font-weight: bold;
+    text-align:center;
+    color: antiquewhite;
+    display: inline-block;
+    position: absolute;
+    width:65%;
+    margin: 31px auto;
+    font-size: 72px;
+    top: 147px;
+    left:244px;
+    justify-content: space-between;
+  }
+  
+  header{
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    padding: 0px 15px;
+    top:0;
+    /* background-color: rgb(17, 17, 17); */
+  }
+  
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top:-28px;
+    left:10px;
+    /* width:20%; */
+    /* height:20%; */
+  }
+  .left img{
+    width: 178px;
+    top:0px;
+    /* height:23px; */
+  }
+  .centre{
+    width:40vw;
+    font-size: 1px;
+    margin: 31px auto;
+    /* border: 2px solid rgb(255, 0, 170); */
+  }
+  
+  .right{
+    color: bisque;
+    /* border: 2px solid rgb(72, 61, 90); */
+    display:inline-block;
+    position: absolute;
+    top:31px;
+    right:20px;
+  }
+  .navbar ul {
+    margin: 7%;
+  
+  }
+  .navbar li{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:20em;
+    padding:10px 10px;
+    margin:4px;
+    display:inline-block;
+    font-weight: 200px;
+    text-decoration: none;
+  }
+  
+  .navbar li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  .navbar li:hover{
+    color:rgb(255, 181, 233);
+    /* background-color: rgb(255, 181, 233); */
+    border-radius: 5px;
+  }
+  
+  .navbar li a:hover{
+    color:rgb(238, 20, 173);
+    /* background-color: rgb(255, 181, 233); */
+    border-radius: 5px;
+  }
+  .right button{
+    
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(136, 0, 0);
+    border:none;
+    border-radius:100px;
+    padding:20px;
+    font-size: 18px;
+    background-color: rgb(255, 159, 218);
+    cursor:pointer;
+    text-decoration: none;
+    
+  }
+  .right button:hover{
+    background-color: rgb(255, 181, 233);
+    color:rgb(59, 22, 53);
+    
+  }
+  
+  .right button a{
+    text-decoration: none;
+  }
+  
+  .right button a :hover{
+    text-decoration: none;
+    color: whitesmoke;
+
+  }
+
+
+#total{
+    background-color: rgb(255, 232, 104);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#total:hover{
+    background-color: rgb(255, 225, 52);
+    color: white;
+
+}
+
+
+.someBlock{
+    cursor: pointer;
+}
